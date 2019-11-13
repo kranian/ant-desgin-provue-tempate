@@ -18,7 +18,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: '3TB',
+      default: 'Orange',
       required: false
     },
     showTitle: {

@@ -5,11 +5,11 @@
         <div class="header">
           <a href="/">
             <img src="~@/assets/logo.svg" class="logo" alt="logo">
-            <span class="title">3TB Sensor MiddleWare</span>
+            <span class="title">LoRaWAN MiddleWare Gateway</span>
           </a>
         </div>
         <div class="desc">
-          3TB LoRa Device Management
+          {{ description }}
         </div>
       </div>
 
@@ -17,7 +17,7 @@
 
       <div class="footer">
         <div class="copyright">
-          Copyright &copy; 2019 {{copyright}}
+          Copyright &copy; 2019 {{ copyright }}
         </div>
       </div>
     </div>
@@ -34,7 +34,8 @@ export default {
   mixins: [mixinDevice],
   data () {
     return {
-      copyright: 'kranian'
+      description: 'LoRaWAN Device Management',
+      copyright: 'Orange'
     }
   },
   mounted () {

@@ -68,7 +68,7 @@ const rootRouter = {
   component: 'BasicLayout',
   redirect: '/dashboard',
   meta: {
-    title: '首页'
+    title: 'Home'
   },
   children: []
 }
